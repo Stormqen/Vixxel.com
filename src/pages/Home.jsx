@@ -55,10 +55,16 @@ const Home = () => {
             </div>
 
             <div className="flex flex-wrap justify-center gap-6">
-              <button className="btn-primary flex items-center gap-3 px-10 py-4 text-lg shadow-lg shadow-blue-600/20">
+              <button 
+                onClick={() => window.location.hash = '/docs'}
+                className="btn-primary flex items-center gap-3 px-10 py-4 text-lg shadow-lg shadow-blue-600/20"
+              >
                 Стать разработчиком <Rocket className="w-5 h-5" />
               </button>
-              <button className="bg-white/5 hover:bg-white/10 border border-white/10 px-10 py-4 rounded-lg font-bold transition-all flex items-center gap-3">
+              <button 
+                onClick={() => window.location.hash = '/docs'}
+                className="bg-white/5 hover:bg-white/10 border border-white/10 px-10 py-4 rounded-lg font-bold transition-all flex items-center gap-3"
+              >
                 Whitepaper Engine <Layout className="w-5 h-5" />
               </button>
             </div>
@@ -143,7 +149,7 @@ const Home = () => {
                   <div className="w-3 h-3 rounded-full bg-red-500/50"></div>
                   <div className="w-3 h-3 rounded-full bg-yellow-500/50"></div>
                   <div className="w-3 h-3 rounded-full bg-green-500/50"></div>
-                  <div className="ml-4 text-[10px] text-gray-600 font-mono uppercase tracking-widest">vixxel_studio_v0.8.alpha</div>
+                  <div className="ml-4 text-[10px] text-gray-600 font-mono uppercase tracking-widest">vixxel_core_v0.0.1_vulkan</div>
                 </div>
                 <div className="grid grid-cols-4 gap-4 h-full">
                   <div className="col-span-1 border-r border-white/5 space-y-2">

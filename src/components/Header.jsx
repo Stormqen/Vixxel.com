@@ -13,6 +13,7 @@ const Header = () => {
           </Link>
           
           <nav className="hidden md:flex items-center gap-6">
+            <Link to="/docs" className="text-[10px] font-black text-gray-400 hover:text-white transition-colors uppercase tracking-[0.2em]">Документация</Link>
             <Link to="/tech" className="text-[10px] font-black text-gray-400 hover:text-white transition-colors uppercase tracking-[0.2em]">Технологии</Link>
             <Link to="/ecosystem" className="text-[10px] font-black text-gray-400 hover:text-white transition-colors uppercase tracking-[0.2em]">Экосистема</Link>
             <Link to="/studio" className="text-[10px] font-black text-gray-400 hover:text-white transition-colors uppercase tracking-[0.2em]">Studio</Link>
@@ -33,7 +34,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <div className="hidden sm:flex items-center gap-2 bg-blue-500/10 px-3 py-1.5 rounded-lg border border-blue-500/20">
             <Cpu className="w-3.5 h-3.5 text-blue-500" />
-            <span className="text-[10px] font-black text-blue-400 uppercase tracking-widest">v0.8.4 Alpha</span>
+            <span className="text-[10px] font-black text-blue-400 uppercase tracking-widest">v0.0.1 Core Alpha</span>
           </div>
           <button className="p-2 text-gray-400 hover:text-white transition-colors relative">
             <Bell className="w-5 h-5" />

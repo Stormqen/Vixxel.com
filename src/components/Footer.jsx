@@ -18,16 +18,16 @@ const Footer = () => {
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-white mb-6">Технологии</h3>
             <ul className="space-y-3 text-[10px] font-black uppercase tracking-widest text-gray-500">
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Vulkan Engine</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">ECS Architecture</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Core API</a></li>
+              <li><a href="#/tech" className="hover:text-blue-500 transition-colors">Vulkan Engine</a></li>
+              <li><a href="#/tech" className="hover:text-blue-500 transition-colors">ECS Architecture</a></li>
+              <li><a href="#/docs" className="hover:text-blue-500 transition-colors">Core API</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-white mb-6">Разработка</h3>
             <ul className="space-y-3 text-[10px] font-black uppercase tracking-widest text-gray-500">
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Vixxel Studio</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Documentation</a></li>
+              <li><a href="#/studio" className="hover:text-blue-500 transition-colors">Vixxel Studio</a></li>
+              <li><a href="#/docs" className="hover:text-blue-500 transition-colors">Документация</a></li>
               <li><a href="#" className="hover:text-blue-500 transition-colors">Dev Portal</a></li>
             </ul>
           </div>
